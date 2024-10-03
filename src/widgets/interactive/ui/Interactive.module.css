@@ -1,0 +1,21 @@
+.interactive {
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    background-color: white;
+    color: lightgray;
+}
+.interactive > div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.interactive > div > button {
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.interactive > div > button.active {
+    border: 1px solid lightgray;
+}
