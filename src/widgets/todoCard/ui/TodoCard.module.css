@@ -1,0 +1,32 @@
+.todo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid lightgray;
+}
+
+.checkbox {
+    height: 44px;
+    width: 44px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+}
+.text {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    flex: 1 1 0;
+    padding-left: 20px;
+    font-size: 37px;
+    opacity: 0.7;
+    user-select: none;
+}
+.delete {
+    height: 40px;
+    width: 40px;
+}
+.todo.active .text {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
